@@ -1,10 +1,10 @@
 //your JS code here. If required.
 let btn=document.querySelector("#enterBtn");
-let inc=document.querySelector("h1");
+let inc=document.querySelector("#status");
 
 btn.addEventListener("click",()=>{
     
-    inc.innerText="Entered Metaverse";
+    inc.innerHTML="<h1> Entered Metaverse</h1>";
    
     
     
